@@ -8,7 +8,39 @@
     padding: 15px 5px;
     border-radius: 36px;;
     box-sizing: border-box;
+    margin-bottom: 15px;
 }
 #friends-display-link i{
     color: rgba(0,0,0,0.3)
+}
+.friends_screen{
+    padding:0px var(--horizontal-space);
+}
+.user-component_skills{
+    display:flex;
+    align-items: center;
+}
+.user-component_skills--btn{
+    display:flex;
+    align-items:center;
+    padding: 3px;
+    border: 1px solid rgba(0,0,0,0.3);
+    border-radius: 5px;
+    margin-right: 5px;
+    margin-top: 5px;
+    font-size: 12px;
+}
+.html-logo{
+    margin-right: 2px;
+    color: #E75127;
+}
+.css-logo{
+    margin-right: 2px;
+    color: #1373B8;
+}
+.html{
+    color: #E75127;
+}
+.css{
+    color: #1373B8;
 }
