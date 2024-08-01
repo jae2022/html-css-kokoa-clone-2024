@@ -14,7 +14,7 @@
     color: rgba(0,0,0,0.3)
 }
 .friends_screen{
-    padding:0px var(--horizontal-space);
+    padding: 0px var(--horizontal-space);
 }
 .user-component_skills{
     display:flex;
