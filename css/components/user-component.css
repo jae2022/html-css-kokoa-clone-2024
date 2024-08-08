@@ -38,8 +38,9 @@
     height: 60px;
     border-radius: 15px;
 }
-.friends-screen_channel-header{
-    margin-top:25px;
-    padding: 15px 0px;
-    border-top: 1px solid rgba(0,0,0,0.2);
+.user-component_column:last-child{
+    color: rgba(0,0,0,0.5);
+}
+.user-component_column:last-child span{
+    margin-right:5px;
 }
