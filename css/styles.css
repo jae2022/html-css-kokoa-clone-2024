@@ -2,6 +2,7 @@
 @import "reset.css";
 @import "variables.css";
 /* Components */
+@import "components/login.css";
 @import "components/status-bar.css";
 @import "components/nav-bar.css";
 @import "components/screen-header.css";
@@ -9,6 +10,7 @@
 /* Screens */
 @import "screens/login.css";
 @import "screens/friends.css";
+@import "screens/chats.css";
 
 body{
     font-family: "Roboto", sans-serif;
@@ -17,58 +19,6 @@ body{
     color: #2e363e;
 }
 
-.welcome-header{
-    margin-top: 100px;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-}
-.welcome-header__title{
-    margin-bottom: 40px;
-    font-size: 25px;
-    font-weight: 600;
-}
-.welcome-header__text{
-    width: 75%;
-    opacity: 0.5;
-    margin-bottom: 75px;
-}
-
-#login-form{
-    display:flex;
-    flex-direction: column;
-    margin: 0px 45px;
-}
-#login-form input{
-    padding: 15px 0px;
-    border: none;
-    margin-bottom: 10px;
-}
-#login-form input:not([type="submit"]) {
-    border-bottom: 1px solid rgba(0,0,0,0.3);
-    transition: border-color 0.3s ease-in-out;
-}
-#login-form input::placeholder{
-    color: rgb(0,0,0,0.4)
-}
-#login-form__login-button {
-    margin-top: 20px;
-    margin-bottom: 10px;
-}
-#login-form input:focus{
-    border-color:var(--yellow)
-}
-#login-form__login-button {
-    background-color:var(--yellow);
-    cursor: pointer;
-}
-#login-form input[type="submit"]{
-    border-radius: 5px;
-}
-#login-form a{
-    text-align: center;
-    text-decoration: none;
-    color:inherit;
-    font-size: 12px;
+.main-screen{
+    padding: var(--horizontal-space);
 }
