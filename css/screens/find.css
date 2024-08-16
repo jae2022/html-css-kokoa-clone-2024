@@ -29,3 +29,10 @@
     font-size: 14px;
     color: var(--gray-font);
 }
+.recommended-friends span{
+    font-size: 12px;
+    color:var(--gray-font);
+    margin: 100px 0px;
+    display: block;
+    text-align:center;
+}
