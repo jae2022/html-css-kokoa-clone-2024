@@ -1,5 +1,6 @@
 .user-component{
     justify-content: space-between;
+    margin-bottom: 15px;
 }
 .user-component_column{
     display:flex;
@@ -27,7 +28,7 @@
 }
 .user-component_subtitle{
     margin-top: 5px;
-    color: rgba(0,0,0,0.4)
+    color: var(--gray-font);
 }
 .user-component_avatar--xl{
     width: 80px;
