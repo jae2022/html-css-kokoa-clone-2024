@@ -36,3 +36,16 @@
     display: block;
     text-align:center;
 }
+
+.open-chat_header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    opacity: 0.8;
+    font-size: 14px;
+}
+.open-chat_header span{
+    opacity: 0.6;
+    font-size: 12px;
+    margin-right: 5px;
+}
