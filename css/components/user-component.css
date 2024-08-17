@@ -1,6 +1,8 @@
 .user-component{
+    display: flex;
     justify-content: space-between;
     margin-bottom: 15px;
+    align-items: center;
 }
 .user-component_column{
     display:flex;
@@ -52,4 +54,9 @@
 .user-component_time{
     display: block;
     margin-bottom: 5px;
+}
+.fa-circle-info{
+    margin-top: 5px;
+    margin-left: 5px;
+    color: #f9a200;
 }
