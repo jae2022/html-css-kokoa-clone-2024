@@ -8,9 +8,9 @@
 .alt-header_title{
     font-weight: 600;
 }
-.alt-header_column :first-child{
+.alt-header_column:first-child{
     margin-right: auto;
 }
-.alt-header_column :last-child{
+.alt-header_column:last-child{
     margin-left: auto;
 }
