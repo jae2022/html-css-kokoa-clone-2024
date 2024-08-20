@@ -1,8 +1,71 @@
-.fa-bars{
+.alt-header_column span:last-child{
     margin-left: 15px;
 }
 
 #chat-screen{
     background-color: #abc1d1;
     height: 1000vh;
+}
+#chat-screen .alt-header,
+#chat-screen .status-bar {
+    top: 0;
+    position: fixed;
+    width: 100%;
+    box-sizing: border-box;
+    background-color: #abc1d1;
+}
+#chat-screen .status-bar{
+    z-index: 2;
+}
+#chat-screen .alt-header{
+    top: 25px;
+    z-index: 1;
+}
+
+.main-chat{
+    margin-top : 80px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.chat-timestamp{
+    color: white;
+    background-color: #92a4b2;
+    font-size: 14px;
+    padding: 10px 20px;
+    border-radius: 16px;
+    margin-bottom: 15px;
+}
+
+.message-row{
+    width: 100%;
+    display: flex;
+    margin-bottom: 15px;
+}
+.message-row img{
+    width: 45px;
+    height: 45px;
+    border-radius: 10px;
+}
+.message_author{
+    margin-left: 8px;
+    margin-bottom: 4px;
+    opacity: 0/8;
+    font-size: 12px;
+    display: block;
+}
+.message_bubble{
+    margin-left: 8px;
+    background-color: white;
+    padding: 8px;
+    border-radius: 10px;
+    border-top-left-radius: 0px;
+}
+.message_info{
+    display:flex;
+    align-items: flex-end;
+}
+.message_time{
+    font-size: 12px;
+    margin-left: 4px;
 }
