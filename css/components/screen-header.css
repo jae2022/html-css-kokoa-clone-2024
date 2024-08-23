@@ -14,14 +14,14 @@
 }
 
 @keyframes rotateGear{
-    from{
+    from {
         transform: none;
     }
-    to{
+    to {
         transform: rotateZ(360deg);
     }
 }
 
-.fa-gear{
-    animation: rotateGear 3s ease-in-out;
+.screen-header_icons .fa-gear:hover {
+    animation: rotateGear 3s ease-in-out infinite;
 }
